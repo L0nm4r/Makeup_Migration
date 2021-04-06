@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 导航条 */
+.topnav {
+    overflow        : hidden;
+    display:flex;
+    justify-content: center;
+    background-color:black;
+    color:white;
+}
+
+/* 导航链接 */
+.topnav a {
+    float          : center;
+    display        : block;
+    color          : #f2f2f2;
+    text-align     : center;
+    padding        : 14px 20px;
+    text-decoration: none;
+}
+
+/* 链接 - 修改颜色 */
+.topnav a:hover {
+    background-color: white;
+    color           : black;
+}
+/*================================*/
+
+/*列表项目*/
+.container1{
+    justify-content: center;
+    display: flex;
+}
+
+.container1 img{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.container2{
+    justify-content: center;
+    display: flex;
+}
+
+.container2 img{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+/*================================*/
+/* 底部样式 */
+.footer {
+    margin-top: 30px;
+    background-color: #f1f1f1;
+    padding         : 10px;
+    text-align      : center;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			welcome to the beautiful makeup world!
+		</title>
+		<link rel="stylesheet" type="text/css" href="choose.css" />
+		<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.one img {
+			position: absolute;
+			width: 1280px;
+			height: 600px;
+		}
+
+		.two img {
+			position: absolute;
+			width: 1280px;
+			height: 600px;
+		}
+
+		.three img {
+			position: absolute;
+			width: 1280px;
+			height: 600px;
+		}
+
+		.three {
+			animation-name: cantoons3;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+		}
+
+		.two {
+			animation-name: cantoons2;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+		}
+
+		.one {
+			animation-name: cantoons1;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes cantoons3 {
+			0% {
+				opacity: 1;
+			}
+
+			35% {
+				opacity: 0;
+			}
+
+			70% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+
+		}
+
+		@keyframes cantoons2 {
+			0% {
+				opacity: 0;
+			}
+
+			35% {
+				opacity: 1;
+			}
+
+			70% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 0;
+
+			}
+		}
+
+		@keyframes cantoons1 {
+			0% {
+				opacity: 0;
+			}
+
+			35% {
+				opacity: 0;
+			}
+
+			70% {
+				opacity: 1;
+			}
+
+			100% {
+				opacity: 0;
+
+			}
+		}
+	</style>
+	</head>
+	<body>
+
+	<center><p>Welcome to the makeup world!</p></center>
+    <p style="margin-left: 1000px; margin-bottom: 20px;">登录 | 注册</p>
+
+    <div class="topnav">
+        <a href="">眼妆</a>
+        <a href="">底妆</a>
+        <a href="">轮廓</a>
+        <a href="">产品</a>
+        <a href="">官网专享</a>
+        <a href="">关于</a>
+    </div>
+
+    <div>
+		<div class="one">
+            <img src="img/1.jpg" alt="1">
+        </div>
+        <div class="two">
+            <img src="img/2.jpg" alt="2">
+        </div>
+        <div class="three">
+            <img src="img/3.jpg" alt="3">
+        </div>
+	</div>
+
+	<div>
+		<center><p style="margin-top: 700px;">选择您需要的场景</p></center>
+	</div>
+
+	<div>
+		<div class="container1">
+		 <a href=""><img alt="1" src="img/icon1.svg"></a>
+		 <a href=""><img alt="2" src="img/icon2.svg"></a>
+		 <a href=""><img alt="3" src="img/icon3.svg"></a>
+	    </div>
+	    <div class="container2">
+		 <a href=""><img alt="4" src="img/icon4.svg"></a>
+		 <a href="dating.html"><img alt="5" src="img/icon5.svg"></a>
+		 <a href="party.html"><img alt="6" src="img/icon6.svg"></a>
+	    </div>
+	</div>
+
+	<div class="footer">
+        <p>关于我们&nbsp;帮助中心&nbsp; 开放平台&nbsp; 诚聘英才&nbsp;
+            联系我们&nbsp; 网站合作&nbsp; 法律声明&nbsp; 隐私权政策&nbsp; 知识产权&nbsp; 廉正举报</p>
+    </div>
+	</body>
+</html>
